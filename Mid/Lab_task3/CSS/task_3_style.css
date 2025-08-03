@@ -1,0 +1,61 @@
+body{
+    background-color:gainsboro;
+}
+h1{
+    text-align: left;
+    color: red;
+}
+form{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: left;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 15px;
+}
+.form-radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    gap:5px;
+}
+.form-group input{
+    positiion: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group select{
+    positiion: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-comment{
+    margin-top:10px;
+    width: 100%;
+}
+.form-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 5px;
+    gap:5px;
+    width: 100%;
+}
